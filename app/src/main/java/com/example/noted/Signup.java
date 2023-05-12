@@ -27,7 +27,7 @@ public class Signup extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(Signup.this, "Log In to Notetify", Toast.LENGTH_SHORT).show();
-                Intent intent= new Intent(getApplicationContext(),Login.class);
+                Intent intent = new Intent(getApplicationContext(), Login.class);
                 startActivity(intent);
 
             }
@@ -37,8 +37,9 @@ public class Signup extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(Signup.this, "Signed Up Successfully", Toast.LENGTH_SHORT).show();
-                Intent intent= new Intent(getApplicationContext(),Signup.class);
+                Intent intent = new Intent(getApplicationContext(), Signup.class);
                 startActivity(intent);
             }
         });
     }
+}
