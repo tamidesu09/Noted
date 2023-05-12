@@ -1,7 +1,5 @@
 package com.example.noted;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -9,6 +7,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Login extends AppCompatActivity {
 
@@ -35,7 +35,7 @@ public class Login extends AppCompatActivity {
                     String password = passwordText.getText().toString();
 
                     if (username.equals("beary") && password.equals("gud")) {
-                        Toast.makeText(Login.this, "Welcome to Notetify", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(Login.this, "Welcome to Noted", Toast.LENGTH_SHORT).show();
                         Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                         startActivity(intent);
                     } else {
@@ -49,7 +49,7 @@ public class Login extends AppCompatActivity {
             textView3.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Toast.makeText(Login.this, "Sign Up to Notetify", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Login.this, "Sign Up to Noted", Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(getApplicationContext(), Signup.class);
                     startActivity(intent);
                 }

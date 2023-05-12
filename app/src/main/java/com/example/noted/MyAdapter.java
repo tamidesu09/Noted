@@ -1,11 +1,6 @@
 package com.example.noted;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.RecyclerView;
-
 import android.content.Context;
-import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
@@ -14,13 +9,15 @@ import android.widget.PopupMenu;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.text.DateFormat;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import java.text.DateFormat;
+
 import io.realm.Realm;
 import io.realm.RealmResults;
 
-public class MyAdapter extends AppCompatActivity {
+public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
     Context context;
     RealmResults<Note> notesList;
@@ -31,12 +28,10 @@ public class MyAdapter extends AppCompatActivity {
     }
 
     @NonNull
-    @Override
     public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         return new MyViewHolder(LayoutInflater.from(context).inflate(R.layout.item_view,parent,false));
     }
 
-    @Override
     public void onBindViewHolder(@NonNull MyAdapter.MyViewHolder holder, int position) {
         Note note = notesList.get(position);
         holder.titleOutput.setText(note.getTitle());
@@ -73,7 +68,6 @@ public class MyAdapter extends AppCompatActivity {
 
     }
 
-    @Override
     public int getItemCount() {
         return notesList.size();
     }

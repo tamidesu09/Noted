@@ -2,13 +2,14 @@ package com.example.noted;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import io.realm.Realm;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
 import com.google.android.material.button.MaterialButton;
+
+import io.realm.Realm;
 
 public class AddNotes extends AppCompatActivity {
     @Override
