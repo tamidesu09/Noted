@@ -43,9 +43,9 @@ If you have any questions or issues, please contact me at [mljflores@tip.edu.ph]
 We would like to acknowledge the following people for their contributions to this project:
 
 Araneta, Jenny Mae
-De Guzman, Jaleel Nicole
-Flores, Liam Jed
-Revilla, Aron Viel
+| De Guzman, Jaleel Nicole
+| Flores, Liam Jed
+| Revilla, Aron Viel
 Thank you for your hard work and dedication in creating this application.
 
 [![Build Status](https://travis-ci.com/tamidesu09/Noted.svg?branch=master)](https://travis-ci.com/tamidesu09/Noted)
