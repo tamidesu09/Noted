@@ -15,6 +15,13 @@ To get started with this project, follow these steps:
 
 To install the dependencies for this project, run the following command:
 
+1. Clone this repository:
+2. Navigate to the project directory:
+3. Install the required dependencies using npm:
+4. Create a Firebase project and add your Firebase configuration details to `src/firebase.js`.
+5. Start the development server:
+6. Open your web browser and navigate to `http://localhost:3000` to view the Noted application.
+
 ## Usage
 
 To use this project, follow the steps in the "Getting Started" section above. Once the project is running, you can create, edit, and delete notes.
