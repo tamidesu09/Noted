@@ -46,7 +46,7 @@ Araneta, Jenny Mae
 | De Guzman, Jaleel Nicole
 | Flores, Liam Jed
 | Revilla, Aron Viel
-Thank you for your hard work and dedication in creating this application.
+.Thank you for your hard work and dedication in creating this application.
 
 [![Build Status](https://travis-ci.com/tamidesu09/Noted.svg?branch=master)](https://travis-ci.com/tamidesu09/Noted)
 
